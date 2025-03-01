@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('background.jpg') center/cover no-repeat;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            width: 350px;
+            background: #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: url('foto.jpg') center/cover;
+            display: inline-block;
+            border: 3px solid #ffffff;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        p {
+            font-size: 14px;
+            color: #bbb;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .social-icons li {
+            background: #222;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            width: 100%;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .social-icons img {
+            width: 40px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .social-icons div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .social-icons span {
+            font-size: 14px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <div class="profile-img"></div>
+            <div>
+                <h1>Raafi Naufal Fadhillah</h1>
+                <p>Mahasiswa S1 Sistem Informasi Telkom University</p>
+                <p>NIM: 102022300053</p>
+            </div>
+        </div>
+        <ul class="social-icons">
+            <li>
+                <a href="https://discord.com/users/391291149752729602" target="_blank">
+                    <img src="discord.png" alt="Discord">
+                    <div>
+                        <strong>Discord</strong>
+                        <span>raafi</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Raafi002" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                    <div>
+                        <strong>GitHub</strong>
+                        <span>github.com/raafi002</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/raafi.ten/" target="_blank">
+                    <img src="instagram.png" alt="Instagram">
+                    <div>
+                        <strong>Instagram</strong>
+                        <span>@raafi.ten</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/raafi-naufal-fadhillah-3a68b7286/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn">
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <span>Raafi Naufal Fadhillah</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
